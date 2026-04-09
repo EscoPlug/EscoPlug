@@ -20,10 +20,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // --- 2. Catalog Data & Generation ---
     const products = [
         { name: "Nike Shox TL", price: "€150.00", img: "https://www.jdsports.cy/2758906-product_medium/nike-shox-tl.jpg", description2: "more info on our Instagram", description: "available sizes 44 & 44.5" },
-        { name: "Minimalist Hoodie", price: "€50.00", img: "https://images.unsplash.com/photo-1556821840-3a63f95609a7?w=400", description2: "more info on our Instagram", description: "available sizes 44 & 44.5" },
-        { name: "Streetwear Tee", price: "€25.00", img: "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=400", description2: "more info on our Instagram", description: "available sizes 44 & 44.5" },
-        { name: "Cargo Pants", price: "€60.00", img: "https://images.unsplash.com/photo-1624378439575-d8705ad7ae80?w=400", description2: "more info on our Instagram", description: "available sizes 44 & 44.5" }
-    ];
+         ];
 
     const catalog = document.getElementById('catalog');
     

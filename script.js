@@ -19,23 +19,24 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // --- 2. Catalog Data & Generation ---
     const products = [
-        { name: "Nike Shox TL", price: "€150.00", img: "https://www.jdsports.cy/2758906-product_medium/nike-shox-tl.jpg", description: "more info on our Instagram" },
-        { name: "Minimalist Hoodie", price: "€50.00", img: "https://images.unsplash.com/photo-1556821840-3a63f95609a7?w=400", description: "more info on our Instagram" },
-        { name: "Streetwear Tee", price: "€25.00", img: "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=400", description: "more info on our Instagram" },
-        { name: "Cargo Pants", price: "€60.00", img: "https://images.unsplash.com/photo-1624378439575-d8705ad7ae80?w=400", description: "more info on our Instagram" }
+        { name: "Nike Shox TL", price: "€150.00", img: "https://www.jdsports.cy/2758906-product_medium/nike-shox-tl.jpg", description2: "more info on our Instagram", description: "available sizes 44 & 44.5" },
+        { name: "Minimalist Hoodie", price: "€50.00", img: "https://images.unsplash.com/photo-1556821840-3a63f95609a7?w=400", description2: "more info on our Instagram", description: "available sizes 44 & 44.5" },
+        { name: "Streetwear Tee", price: "€25.00", img: "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=400", description2: "more info on our Instagram", description: "available sizes 44 & 44.5" },
+        { name: "Cargo Pants", price: "€60.00", img: "https://images.unsplash.com/photo-1624378439575-d8705ad7ae80?w=400", description2: "more info on our Instagram", description: "available sizes 44 & 44.5" }
     ];
 
     const catalog = document.getElementById('catalog');
-
+    
     products.forEach(item => {
         const card = document.createElement('div');
         card.className = 'product-card';
         card.innerHTML = `
             <img src="${item.img}" alt="${item.name}" class="product-image">
             <div class="product-info">
-                <h3>${item.name}</h3>
+                <h3 class="product-name">${item.name}</h3>
                 <p class="product-price">${item.price}</p>
-                <p class="product-description">${item.description}</p
+                <p class="product-description">${item.description}</p>
+                <p class="product-description2">${item.description2}</p>
             </div>
         `;
         catalog.appendChild(card);

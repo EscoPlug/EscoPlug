@@ -19,7 +19,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // --- 2. Catalog Data & Generation ---
     const products = [
-        { name: "Nike Shox TL", price: "€75.00", img: "https://www.jdsports.cy/2758906-product_medium/nike-shox-tl.jpg", description: "more info on our Instagram" },
+        { name: "Nike Shox TL", price: "€150.00", img: "https://www.jdsports.cy/2758906-product_medium/nike-shox-tl.jpg", description: "more info on our Instagram" },
         { name: "Minimalist Hoodie", price: "€50.00", img: "https://images.unsplash.com/photo-1556821840-3a63f95609a7?w=400", description: "more info on our Instagram" },
         { name: "Streetwear Tee", price: "€25.00", img: "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=400", description: "more info on our Instagram" },
         { name: "Cargo Pants", price: "€60.00", img: "https://images.unsplash.com/photo-1624378439575-d8705ad7ae80?w=400", description: "more info on our Instagram" }
